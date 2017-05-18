@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BGSegementController_Example' do
+  pod 'BGSegementController', :path => '../'
+
+  target 'BGSegementController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
