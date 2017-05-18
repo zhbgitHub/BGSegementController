@@ -2,9 +2,10 @@
 //  BGAppDelegate.h
 //  BGSegementController
 //
-//  Created by zhbgitHub on 05/18/2017.
-//  Copyright (c) 2017 zhbgitHub. All rights reserved.
+//  Created by iOSzhb on 2016/5/18.
+//  Copyright © 2016年 zhbgitHub. All rights reserved.
 //
+
 
 @import UIKit;
 

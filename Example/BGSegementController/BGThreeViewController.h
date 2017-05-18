@@ -1,5 +1,5 @@
 //
-//  BGViewController.h
+//  BGThreeViewController.h
 //  BGSegementController
 //
 //  Created by iOSzhb on 2016/5/18.
@@ -7,8 +7,8 @@
 //
 
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
-@interface BGViewController : UIViewController
+@interface BGThreeViewController : UIViewController
 
 @end

@@ -1,14 +1,13 @@
 //
-//  BGViewController.h
+//  BGFourViewController.h
 //  BGSegementController
 //
 //  Created by iOSzhb on 2016/5/18.
 //  Copyright © 2016年 zhbgitHub. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 
-@import UIKit;
-
-@interface BGViewController : UIViewController
+@interface BGFourViewController : UIViewController
 
 @end

@@ -23,6 +23,10 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7F6E6E4E1ECD4EF400972E57 /* BGOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6E6E4D1ECD4EF400972E57 /* BGOneViewController.m */; };
+		7F6E6E511ECD4F0200972E57 /* BGTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6E6E501ECD4F0200972E57 /* BGTwoViewController.m */; };
+		7F6E6E541ECD4F0C00972E57 /* BGThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6E6E531ECD4F0C00972E57 /* BGThreeViewController.m */; };
+		7F6E6E571ECD4F1200972E57 /* BGFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6E6E561ECD4F1200972E57 /* BGFourViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		259DE3DD0FF307D2F6E5DDEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		259DE3DD0FF307D2F6E5DDEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4737925F2C58F1AB44ECE00B /* Pods_BGSegementController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGSegementController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* BGSegementController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGSegementController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,8 +63,16 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7B8C0948F6406A3A6D595C67 /* BGSegementController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BGSegementController.podspec; path = ../BGSegementController.podspec; sourceTree = "<group>"; };
-		7C399DE527FF680056422AE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7B8C0948F6406A3A6D595C67 /* BGSegementController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BGSegementController.podspec; path = ../BGSegementController.podspec; sourceTree = "<group>"; };
+		7C399DE527FF680056422AE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7F6E6E4C1ECD4EF400972E57 /* BGOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGOneViewController.h; sourceTree = "<group>"; };
+		7F6E6E4D1ECD4EF400972E57 /* BGOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGOneViewController.m; sourceTree = "<group>"; };
+		7F6E6E4F1ECD4F0200972E57 /* BGTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGTwoViewController.h; sourceTree = "<group>"; };
+		7F6E6E501ECD4F0200972E57 /* BGTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGTwoViewController.m; sourceTree = "<group>"; };
+		7F6E6E521ECD4F0C00972E57 /* BGThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGThreeViewController.h; sourceTree = "<group>"; };
+		7F6E6E531ECD4F0C00972E57 /* BGThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGThreeViewController.m; sourceTree = "<group>"; };
+		7F6E6E551ECD4F1200972E57 /* BGFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGFourViewController.h; sourceTree = "<group>"; };
+		7F6E6E561ECD4F1200972E57 /* BGFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGFourViewController.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABD6173BD6D21789CE692B4C /* Pods-BGSegementController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGSegementController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BGSegementController_Example/Pods-BGSegementController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B53A14CCE636C59B0B0D16A6 /* Pods-BGSegementController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGSegementController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BGSegementController_Example/Pods-BGSegementController_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +152,14 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				7F6E6E4C1ECD4EF400972E57 /* BGOneViewController.h */,
+				7F6E6E4D1ECD4EF400972E57 /* BGOneViewController.m */,
+				7F6E6E4F1ECD4F0200972E57 /* BGTwoViewController.h */,
+				7F6E6E501ECD4F0200972E57 /* BGTwoViewController.m */,
+				7F6E6E521ECD4F0C00972E57 /* BGThreeViewController.h */,
+				7F6E6E531ECD4F0C00972E57 /* BGThreeViewController.m */,
+				7F6E6E551ECD4F1200972E57 /* BGFourViewController.h */,
+				7F6E6E561ECD4F1200972E57 /* BGFourViewController.m */,
 			);
 			name = "Example for BGSegementController";
 			path = BGSegementController;
@@ -396,7 +416,11 @@
 			files = (
 				6003F59E195388D20070C39A /* BGAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* BGViewController.m in Sources */,
+				7F6E6E571ECD4F1200972E57 /* BGFourViewController.m in Sources */,
+				7F6E6E541ECD4F0C00972E57 /* BGThreeViewController.m in Sources */,
+				7F6E6E4E1ECD4EF400972E57 /* BGOneViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				7F6E6E511ECD4F0200972E57 /* BGTwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,7 +536,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -527,6 +551,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BGSegementController/BGSegementController-Prefix.pch";
 				INFOPLIST_FILE = "BGSegementController/BGSegementController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -542,6 +567,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BGSegementController/BGSegementController-Prefix.pch";
 				INFOPLIST_FILE = "BGSegementController/BGSegementController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

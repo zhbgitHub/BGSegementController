@@ -2,8 +2,8 @@
 //  BGSegementControllerTests.m
 //  BGSegementControllerTests
 //
-//  Created by zhbgitHub on 05/18/2017.
-//  Copyright (c) 2017 zhbgitHub. All rights reserved.
+//  Created by zhbgitHub on 05/18/2016.
+//  Copyright (c) 2016 zhbgitHub. All rights reserved.
 //
 
 @import XCTest;

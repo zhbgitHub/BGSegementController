@@ -1,0 +1,16 @@
+PODS:
+  - BGSegementController (0.1.0)
+
+DEPENDENCIES:
+  - BGSegementController (from `../`)
+
+EXTERNAL SOURCES:
+  BGSegementController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BGSegementController: bd6c5498c33b07c1a09eb499c7f688d88ef006b4
+
+PODFILE CHECKSUM: fe32250f4f8cafcae36c2c26d4bc26b526e376b6
+
+COCOAPODS: 1.2.0
