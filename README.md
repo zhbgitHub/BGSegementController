@@ -33,7 +33,7 @@ pod "BGSegementController"
 
 * BGSegementController目前通过实现scrollerView的delegate方法,控制显示效果.而我死来想去,正在通过kvo方式达到一样的效果.正在拼命写代码...(后期待上传)
 
-## 后期会上传多个功能组件.敬请期待...
+## 后期将优化,通过collectionView实现,本仓库作废!
 
 ## 联系方法
 
